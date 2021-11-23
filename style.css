@@ -4,6 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main{
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+}
+.section{
+  width: 90%;
+  margin: auto;
+}
 /* End Common */
 
 /* Start Header */
@@ -21,15 +30,12 @@
 }
 /* End Header */
 
-/* Start Main */
+/* Start Container Button */
 .principal-container{
   background-color: rgb(246, 248, 249);
   padding-top: 50px;
 }
 .container-button{
-  width: 80%;
-  margin: auto;
-  background-color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   
@@ -38,6 +44,7 @@
   width: 90%;
   margin: auto;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .btn-blue{
   width: 80px;
@@ -52,6 +59,40 @@
   color: lightgrey;
   border-radius: 5px;
 }
-.section-text{
+/* End Container Button */
 
+/* Start Section */
+.container{
+  margin-top: 3px;
+}
+.title-section{
+  padding-top: 20px;
+}
+.right{
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid green;
+  color: green;
+}
+.text{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.content-text{
+  margin: 10px 0px;
+}
+.editorial{
+  display: inline-block;
+  background-color: rgb(98, 169, 228);
+  color: #fff;
+  height: 25px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10px;
+  padding-top: 5px;
 }
