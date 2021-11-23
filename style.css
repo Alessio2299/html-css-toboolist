@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .main{
   width: 80%;
   margin: auto;
@@ -12,6 +15,28 @@
 .section{
   width: 90%;
   margin: auto;
+}
+.ticket{
+  display: inline-block;
+  color: #fff;
+  height: 25px;
+  width: 60px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10px;
+  padding-top: 7px;
+}
+.different-ticket{
+  display: inline-block;
+  color: #fff;
+  height: 25px;
+  width: 60px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10px;
+  padding-top: 7px;
 }
 /* End Common */
 
@@ -32,8 +57,9 @@
 
 /* Start Container Button */
 .principal-container{
-  background-color: rgb(246, 248, 249);
+  background-color: rgb(247, 248, 249);
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 .container-button{
   border-top-left-radius: 5px;
@@ -49,21 +75,27 @@
 .btn-blue{
   width: 80px;
   height: 30px;
-  background-color: lightskyblue;
+  background-color: rgb(100, 170, 235);
   color: #fff;
   border-radius: 5px;
+  border: 1px solid rgb(100, 170, 235);
 }.btn-white{
   width: 90px;
   height: 30px;
   background-color: #fff;
   color: lightgrey;
   border-radius: 5px;
+  border: 1px solid lightgrey;
 }
 /* End Container Button */
 
 /* Start Section */
+
 .container{
   margin-top: 3px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-bottom: 20px;
 }
 .title-section{
   padding-top: 20px;
@@ -84,30 +116,6 @@
 .content-text{
   margin: 10px 0px;
 }
-.editorial{
-  display: inline-block;
-  background-color: rgb(98, 169, 228);
-  color: #fff;
-  height: 25px;
-  width: 70px;
-  border-radius: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 10px;
-  padding-top: 5px;
-}
-.q1-goals{
-  display: inline-block;
-  background-color: rgb(150, 116, 221);
-  color: #fff;
-  height: 25px;
-  width: 70px;
-  border-radius: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 10px;
-  padding-top: 5px;
-}
 .wrong{
   border-radius: 50%;
   display: inline-block;
@@ -117,51 +125,22 @@
   border: 1px solid red;
   color: red;
 }
+.editorial{
+  background-color: rgb(98, 169, 228);
+}
+.q1-goals{
+  background-color: rgb(150, 116, 221);
+}
 .recruiting{
-  display: inline-block;
   background-color: rgb(116, 178, 159);
-  color: #fff;
-  height: 25px;
-  width: 70px;
-  border-radius: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 10px;
-  padding-top: 5px;
 }
 .mobile{
-  display: inline-block;
   background-color: rgb(230, 172, 65);
-  color: #fff;
-  height: 25px;
-  width: 60px;
-  border-radius: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 10px;
-  padding-top: 5px;
 }
 .website{
-  display: inline-block;
   background-color: rgb(202, 106, 159);
-  color: #fff;
-  height: 25px;
-  width: 60px;
-  border-radius: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 10px;
-  padding-top: 5px;
-}
+} 
 .sales{
-  display: inline-block;
   background-color: rgb(171, 200, 73);
-  color: #fff;
-  height: 25px;
-  width: 60px;
-  border-radius: 10px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 10px;
-  padding-top: 5px;
 }
+/* End Section */
