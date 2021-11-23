@@ -1,0 +1,51 @@
+/* Start Common */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Common */
+
+/* Start Header */
+.name-logo{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.box-logo{
+  height: 10%;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-top: 5px;
+  vertical-align: middle;
+}
+/* End Header */
+
+/* Start Main */
+.principal-container{
+  background-color: rgb(112, 111, 111);
+  padding-top: 50px;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+.section-button{
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+}
+.btn-blue{
+  width: 80px;
+  height: 30px;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 5px;
+}.btn-blue{
+  width: 80px;
+  height: 30px;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 5px;
+}
